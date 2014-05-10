@@ -56,6 +56,17 @@
 @include make-grid(xs);
 
 
+// Medium small grid
+//
+// Columns, offsets, pushes, and pulls for media small devices like
+// medium small smartphones.
+
+@media (min-width: 480px) {
+  @include make-grid(ms);
+}
+
+
+
 // Small grid
 //
 // Columns, offsets, pushes, and pulls for the small device range, from phones
