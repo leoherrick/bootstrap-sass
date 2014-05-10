@@ -5,9 +5,9 @@ require 'bootstrap-sass/version'
 Gem::Specification.new do |s|
   s.name     = "bootstrap-sass"
   s.version  = Bootstrap::VERSION
-  s.authors  = ["Thomas McDonald"]
+  s.authors  = ["Thomas McDonald", "Leo Herrick"]
   s.email    = 'tom@conceptcoding.co.uk'
-  s.summary  = "Twitter's Bootstrap, converted to Sass and ready to drop into Rails or Compass"
+  s.summary  = "Some slight tweaks to bootstrap-sass to include medium small grid helpers. Twitter's Bootstrap, converted to Sass and ready to drop into Rails or Compass"
   s.homepage = "https://github.com/twbs/bootstrap-sass"
   s.license  = 'MIT'
 
